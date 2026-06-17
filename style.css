@@ -176,6 +176,7 @@ body::after {
     position: relative;
     z-index: 2;
     object-fit: cover;
+    object-position: center 12%;
 }
 
 .profile-avatar-glow {
