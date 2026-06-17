@@ -165,18 +165,18 @@ body::after {
     width: 130px;
     height: 130px;
     margin-bottom: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #ffffff;
 }
 
 .profile-avatar {
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 3px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+    height: auto;
     position: relative;
     z-index: 2;
-    object-fit: cover;
-    object-position: center 30%;
+    display: block;
+    margin-top: 18px;
 }
 
 .profile-avatar-glow {
