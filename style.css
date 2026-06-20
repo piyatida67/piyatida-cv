@@ -176,7 +176,7 @@ body::after {
     position: relative;
     z-index: 2;
     display: block;
-    margin-top: 18px;
+    margin-top: 28px;
 }
 
 .profile-avatar-glow {
